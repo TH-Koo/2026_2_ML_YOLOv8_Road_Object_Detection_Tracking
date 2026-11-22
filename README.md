@@ -17,6 +17,14 @@
 - 개발 환경: Python, PyTorch, Ultralytics YOLOv8, Google Colab
 - 추적 알고리즘: BoT-SORT
 
+## 파일 구성
+
+| 파일 | 구분 | 설명 |
+|---|---|---|
+| [best.pt](best.pt) | 학습 모델 | 사람·차량·도로 표지판 3개 부류를 학습한 YOLOv8 모델의 가중치 |
+| [YOLOv8_Road_Object_Detection_and_Tracking.ipynb](YOLOv8_Road_Object_Detection_and_Tracking.ipynb) | 실행 코드 | 데이터 준비, 모델 학습, 객체 탐지·추적 및 결과 영상 저장 코드 |
+| [tracking_result_5s.mp4](tracking_result_5s.mp4) | 결과 동영상 | 학습 모델과 BoT-SORT를 이용한 도로 객체 탐지·추적 결과. 경계상자, 클래스 이름, 추적 ID 표시 |
+
 ## 실행 순서
 
 1. Google Colab에서 노트북을 엽니다.
