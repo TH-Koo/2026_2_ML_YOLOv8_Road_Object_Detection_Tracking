@@ -27,3 +27,5 @@
 6. 결과 영상을 MP4로 저장합니다.
 
 결과 영상에는 객체의 경계상자, 클래스 이름, 추적 ID가 표시됩니다.
+
+<img width="1280" height="719" alt="image" src="https://github.com/user-attachments/assets/048cfeca-6e91-4db0-914d-7b897aea1083" />
